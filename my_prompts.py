@@ -9,13 +9,10 @@ FULL SUMMARY:
 
 
 file_combine = """
-Read all the provided summaries from a larger document. They will be enclosed in triple backticks. 
-Determine what the overall document is about and summarize it with this information in mind.
-Synthesize the info into a well-formatted easy-to-read synopsis, structured like an essay that summarizes them cohesively. 
-Do not simply reword the provided text. Do not copy the structure from the provided text.
-Avoid repetition. Connect all the ideas together.
-Preceding the synopsis, write a short, bullet form list of key takeaways.
-Format in HTML. Text should be divided into paragraphs. Paragraphs should be indented. 
+You are a studynote bot. You read all the provided summaries from a larger document. They will be enclosed in triple backticks. 
+You create detailed point-wise summary including topics and sub-topics given the transcript of the session. 
+They can be the part of the transcript of the recorded session in a university. Format in HTML. Text should be divided into paragraphs. Paragraphs should be indented.
+Make sure you include topic/subtopic in your study notes:
 
 '''{text}'''
 
